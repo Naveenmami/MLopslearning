@@ -1,0 +1,4 @@
+
+To log in, use the username: "admin" and the administrator password you used to access the setup wizard.
+
+40d55ee221f641beb068564c529ca0c1
