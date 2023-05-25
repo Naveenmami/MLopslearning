@@ -1,0 +1,29 @@
+
+Make directory to store 
+
+mkdir -p ./experiment-tracking/buckets/mlflow
+
+ Build the docker services
+
+docker-compose up --build
+
+
+Train the model
+
+python train.py
+
+copy the pkl file to mlapp 
+
+Build seldon app
+
+docker run -p 5001:5000 -it seldon-app 
+
+
+jenkins
+
+directory
+
+
+permission
+
+docker exec -it jenkins-jenkins-1 /bin/bash
